@@ -14,7 +14,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
 
     <style>
-        *{
+        * {
             font-family: 'Lato', sans-serif;
         }
     </style>
@@ -62,39 +62,135 @@
         </section>
     </header>
     <main class="lg:max-w-screen-xl mx-auto">
-         <!-- this is banner section -->
-         <section>
-            <div class="carousel w-full">
-                <div id="slide1" class="carousel-item relative w-full">
-                  <img src="/images/stock/photo-1625726411847-8cbb60cc71e6.jpg" class="w-full" />
-                  <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-                    <a href="#slide4" class="btn btn-circle">❮</a> 
-                    <a href="#slide2" class="btn btn-circle">❯</a>
-                  </div>
-                </div> 
-                <div id="slide2" class="carousel-item relative w-full">
-                  <img src="/images/stock/photo-1609621838510-5ad474b7d25d.jpg" class="w-full" />
-                  <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-                    <a href="#slide1" class="btn btn-circle">❮</a> 
-                    <a href="#slide3" class="btn btn-circle">❯</a>
-                  </div>
-                </div> 
-                <div id="slide3" class="carousel-item relative w-full">
-                  <img src="/images/stock/photo-1414694762283-acccc27bca85.jpg" class="w-full" />
-                  <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-                    <a href="#slide2" class="btn btn-circle">❮</a> 
-                    <a href="#slide4" class="btn btn-circle">❯</a>
-                  </div>
-                </div> 
-                <div id="slide4" class="carousel-item relative w-full">
-                  <img src="/images/stock/photo-1665553365602-b2fb8e5d1707.jpg" class="w-full" />
-                  <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-                    <a href="#slide3" class="btn btn-circle">❮</a> 
-                    <a href="#slide1" class="btn btn-circle">❯</a>
-                  </div>
+        <!-- this is banner section -->
+        <section>
+            <div class="carousel lg:w-full ">
+                <!-- slider-01 -->
+                <div id="slide1" class="py-7 lg:py-0 carousel-item relative w-full bg-gradient-to-r from-[#2b2a2a] to-[#6d6d6d]">
+                    <img src="/images/banner1.png" class="w-full mix-blend-overlay" />
+                    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                        <a href="#slide4" class="btn btn-circle text-white bg-[#121212] border-none">❮</a>
+                        <a href="#slide2" class="btn btn-circle text-white bg-[#121212] border-none">❯</a>
+                        <div class="text-white absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center">
+                            <div>
+                                <h1 class="text-2xl lg:text-7xl font-extrabold mb-6">Exotic tastes at your  doorstep</h1>
+                                <p class="mb-8 text-sm lg:text-xl">We supply highly quality organic products</p>
+                                <button class="bg-[#F85559] px-4 py-2 lg:px-7 lg:py-5 rounded-lg text-lg lg:text-xl lg:font-extrabold">Shop Now</button>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-              </div>
-         </section>
+                <!-- slider-02 -->
+                <div id="slide2" class="carousel-item relative w-full bg-gradient-to-r from-[#2b2a2a] to-[#6d6d6d]">
+                    <img src="/images/banner2.png" class="w-full mix-blend-overlay" />
+                    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                        <a href="#slide1" class="btn btn-circle text-white bg-[#121212] border-none">❮</a>
+                        <a href="#slide3" class="btn btn-circle text-white bg-[#121212] border-none">❯</a>
+                        <div class="text-white absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center">
+                            <div>
+                                <h1 class="text-7xl font-extrabold mb-6">Exotic tastes at your doorstep</h1>
+                                <p class="mb-8 text-xl">We supply highly quality organic products</p>
+                                <button class="bg-[#F85559] px-7 py-5 rounded-lg text-xl font-extrabold">Shop Now</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- slider-03 -->
+                <div id="slide3" class="carousel-item relative w-full bg-gradient-to-r from-[#2b2a2a] to-[#6d6d6d]">
+                    <img src="/images/banner3.png" class="w-full mix-blend-overlay" />
+                    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                        <a href="#slide2" class="btn btn-circle text-white bg-[#121212] border-none">❮</a>
+                        <a href="#slide4" class="btn btn-circle text-white bg-[#121212] border-none">❯</a>
+                        <div class="text-white absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center">
+                            <div>
+                                <h1 class="text-7xl font-extrabold mb-6">Exotic tastes at your doorstep</h1>
+                                <p class="mb-8 text-xl">We supply highly quality organic products</p>
+                                <button class="bg-[#F85559] px-7 py-5 rounded-lg text-xl font-extrabold">Shop Now</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- slider-04 -->
+                <div id="slide4" class="carousel-item relative w-full bg-gradient-to-r from-[#2b2a2a] to-[#6d6d6d]">
+                    <img src="/images/banner4.png" class="w-full mix-blend-overlay" />
+                    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                        <a href="#slide3" class="btn btn-circle text-white bg-[#121212] border-none">❮</a>
+                        <a href="#slide1" class="btn btn-circle text-white bg-[#121212] border-none">❯</a>
+                        <div class="text-white absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center">
+                            <div>
+                                <h1 class="text-7xl font-extrabold mb-6">Exotic tastes at your doorstep</h1>
+                                <p class="mb-8 text-xl">We supply highly quality organic products</p>
+                                <button class="bg-[#F85559] px-7 py-5 rounded-lg text-xl font-extrabold">Shop Now</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+              
+            </div>
+        </section>
+        <!-- this is Deal of the day section -->
+        <section>
+            <!-- text container -->
+            <div class="flex px-12 lg:px-0 text-center lg:text-left justify-between mt-36 flex-col lg:flex-row">
+                <div class="mb-5 lg:mb-0">
+                    <h1 class="text-5xl font-extrabold mb-6">Deal of the day</h1>
+                    <p>Contrary to popular belief, is not simply random text. It has roots in a piece of classical <br> Latin literature from 45 BC, making it over 2000 years old.</p>
+                </div>
+                <!-- countdown -->
+                <div class="grid grid-flow-col gap-5 text-center auto-cols-max">
+                    <div class="flex flex-col">
+                      <span class="countdown text-5xl font-extrabold">
+                        <span style="--value:29;"></span>
+                      </span>
+                      days
+                    </div> 
+                    <div class="flex flex-col">
+                      <span class="countdown text-5xl font-extrabold">
+                        <span style="--value:15;"></span>
+                      </span>
+                      hours
+                    </div> 
+                    <div class="flex flex-col">
+                      <span class="countdown text-5xl font-extrabold">
+                        <span style="--value:25;"></span>
+                      </span>
+                      min
+                    </div> 
+                    <div class="flex flex-col">
+                      <span class="countdown text-5xl font-extrabold">
+                        <span style="--value:08;"></span>
+                      </span>
+                      sec
+                    </div>
+                  </div>
+            </div>
+             <!-- deal cards -->
+             <div class="mt-11">
+                <!-- card-1 -->
+                <div class="border-2 grid-cols-1 md:grid-cols-2 grid-cols-4">
+                     <div>
+                        <img src="./images/fruit6.png" alt="">
+                     </div>
+                     <div>
+                        <h2 class="mt-12 text-2xl font-bold border-b-2">12.90$ - 18.85$</h2>
+                        <p class="pt-6">Apples</p>
+                        <div class="rating rating-lg rating-half">
+                            <input type="radio" name="rating-10" class="rating-hidden" />
+                            <input type="radio" name="rating-10" class="bg-green-500 mask mask-star-2 mask-half-1" />
+                            <input type="radio" name="rating-10" class="bg-green-500 mask mask-star-2 mask-half-2" />
+                            <input type="radio" name="rating-10" class="bg-green-500 mask mask-star-2 mask-half-1" checked />
+                            <input type="radio" name="rating-10" class="bg-green-500 mask mask-star-2 mask-half-2" />
+                            <input type="radio" name="rating-10" class="bg-green-500 mask mask-star-2 mask-half-1" />
+                            <input type="radio" name="rating-10" class="bg-green-500 mask mask-star-2 mask-half-2" />
+                            <input type="radio" name="rating-10" class="bg-green-500 mask mask-star-2 mask-half-1" />
+                            <input type="radio" name="rating-10" class="bg-green-500 mask mask-star-2 mask-half-2" />
+                            <input type="radio" name="rating-10" class="bg-green-500 mask mask-star-2 mask-half-1" />
+                            <input type="radio" name="rating-10" class="bg-green-500 mask mask-star-2 mask-half-2" />
+                          </div>
+                     </div>
+                </div>
+             </div>
+        </section>
     </main>
 </body>
 
