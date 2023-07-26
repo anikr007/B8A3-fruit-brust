@@ -55,27 +55,28 @@
                     <img src="./images/logo.png" alt="">
                     <a class="btn btn-ghost normal-case text-4xl font-bold">Fruit Burst</a>
                 </div>
-                <div class="navbar-end invisible lg:visible">
-                    <input class="px-7 py-4  rounded-full mr-3" type="search" name="" id="" placeholder="Search here">
+                <div class="navbar-end hidden lg:block ">
+                    <input class="px-7 py-4  rounded-full mr-3 w-[400px]  lg:ml-52" type="search" name="" id="" placeholder="Search here">
                 </div>
             </div>
         </section>
     </header>
     <main class="lg:max-w-screen-xl mx-auto">
         <!-- this is banner section -->
-        <section>
-            <div class="carousel lg:w-full ">
+        <section class="p-4 lg:p-0">
+            <div class="carousel lg:w-full rounded-lg">
                 <!-- slider-01 -->
                 <div id="slide1"
                     class="py-7 lg:py-0 carousel-item relative w-full bg-gradient-to-r from-[#2b2a2a] to-[#6d6d6d]">
-                    <img src="./images/banner1.png" class="w-full mix-blend-overlay" />
+                    <img src="./images/banner1.png" class="w-full bg-cover mix-blend-overlay" />
                     <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
                         <a href="#slide4" class="btn btn-circle text-white bg-[#121212] border-none">❮</a>
                         <a href="#slide2" class="btn btn-circle text-white bg-[#121212] border-none">❯</a>
                         <div
                             class="text-white absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center">
                             <div>
-                                <h1 class="text-2xl lg:text-7xl font-extrabold lg:-mt-20 mb-6">Exotic tastes at your doorstep</h1>
+                                <h1 class="text-2xl lg:text-7xl font-extrabold lg:-mt-20 mb-6">Exotic tastes at your
+                                    doorstep</h1>
                                 <p class="mb-8 text-sm lg:text-xl">We supply highly quality organic products</p>
                                 <button
                                     class="bg-[#F85559] px-4 py-2 lg:px-7 lg:py-5 rounded-lg text-lg lg:text-xl lg:font-extrabold">Shop
@@ -139,8 +140,8 @@
             </div>
         </section>
         <!-- this is bonus section -->
-        <section class="flex justify-center invisible lg:visible">
-            <div class="absolute grid grid-cols-5 gap-24 max-w-6xl bg-white -mt-28 drop-shadow-md py-9 px-16">
+        <section class="flex justify-center ml-16 hidden lg:block">
+            <div class="absolute grid grid-cols-5 gap-24 max-w-6xl bg-white rounded-lg -mt-28 drop-shadow-md py-9 px-16">
                 <!-- fruit-01 -->
                 <div class="text-center ">
                     <div class="flex justify-center mb-4">
@@ -184,33 +185,33 @@
             <div
                 class="flex px-12 lg:px-0 text-center items-center lg:text-left justify-between mt-6 lg:mt-36 flex-col lg:flex-row">
                 <div class="mb-5 lg:mb-0">
-                    <h1 class="text-5xl font-extrabold mb-6">Deal of the day</h1>
-                    <p class="text[#12121299]">Contrary to popular belief, is not simply random text. It has roots in a
+                    <h1 class="lg:text-5xl text-2xl font-extrabold mb-6">Deal of the day</h1>
+                    <p class="text[#12121299] text-sm lg:text-base">Contrary to popular belief, is not simply random text. It has roots in a
                         piece of classical <br>
                         Latin literature from 45 BC, making it over 2000 years old.</p>
                 </div>
                 <!-- countdown -->
                 <div class="grid grid-flow-col gap-5 text-center auto-cols-max">
                     <div class="flex flex-col">
-                        <span class="countdown text-5xl font-extrabold">
+                        <span class="countdown text-3xl lg:text-5xl font-extrabold">
                             <span style="--value:29;"></span> :
                         </span>
                         days
                     </div>
                     <div class="flex flex-col">
-                        <span class="countdown text-5xl font-extrabold">
+                        <span class="countdown text-3xl lg:text-5xl font-extrabold">
                             <span style="--value:15;"></span> :
                         </span>
                         hours
                     </div>
                     <div class="flex flex-col">
-                        <span class="countdown text-5xl font-extrabold">
+                        <span class="countdown text-3xl lg:text-5xl font-extrabold">
                             <span style="--value:25;"></span> :
                         </span>
                         min
                     </div>
                     <div class="flex flex-col">
-                        <span class="countdown text-5xl font-extrabold">
+                        <span class="countdown text-3xl lg:text-5xl font-extrabold">
                             <span style="--value:08;"></span>
                         </span>
                         sec
@@ -521,16 +522,16 @@
             </div>
         </section>
         <!--  this is meet the team section -->
-        <section class="lg:mt-36 lg:mb-36">
-            <div class="hero h-[690px] rounded-lg" style="background-image: url(./images/banner1.png);">
+        <section class="lg:mt-28 lg:mb-36 p-7 ">
+            <div class="hero lg:h-[690px] rounded-lg" style="background-image: url(./images/banner1.png);">
                 <div class="hero-overlay bg-opacity-60"></div>
                 <div class="hero-content text-center text-white">
                     <div class="">
-                        <h1 class="mb-5 text-5xl font-extrabold ">Meet the team section</h1>
-                        <p class="mb-12 font-medium">Contrary to popular belief, is not simply random text. It has roots
+                        <h1 class="mb-5 text-xl lg:text-5xl font-extrabold ">Meet the team section</h1>
+                        <p class="mb-12 lg;font-medium">Contrary to popular belief, is not simply random text. It has roots
                             in a piece of classical <br> Latin literature from 45 BC, making it over 2000 years old.</p>
                         <!-- profile container -->
-                        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-32 lg:px-10">
+                        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 lg:gap-32 lg:px-10">
                             <!-- profile-01 -->
                             <div>
                                 <div class="flex justify-center lg:mb-8">
@@ -589,10 +590,10 @@
             </div>
         </section>
         <!-- this is why choose us section -->
-        <section class="mb-32 grid grid-cols-1"> 
+        <section class="mb-32 grid grid-cols-1 p-5 ">
             <div class="text-center">
-                <h1 class="text-5xl font-extrabold mb-6">Why Choose Us</h1>
-                <p class="mb-5">Contrary to popular belief, is not simply random text. It has roots in a piece of
+                <h1 class="lg:text-5xl text-xl font-extrabold mb-6">Why Choose Us</h1>
+                <p class="mb-5 text-sm lg:text-base">Contrary to popular belief, is not simply random text. It has roots in a piece of
                     classical <br>
                     Latin literature from 45 BC, making it over 2000 years old. </p>
             </div>
@@ -634,7 +635,7 @@
                     </div>
                 </div>
                 <!-- middle part -->
-                <div class="">
+                <div class="hidden lg:block">
                     <img src="./images/whychoose1.png " alt="">
                 </div>
                 <!-- right part -->
@@ -687,7 +688,7 @@
                     <h1 class="text-4xl font-extrabold">Fruit Burst</h1>
                 </div>
                 <div class="">
-                    <ul class="flex gap-14 text-lg font-semibold">
+                    <ul class="lg:flex gap-14 text-lg font-semibold">
                         <li>Home</li>
                         <li>About Us</li>
                         <li>Shop</li>
@@ -699,13 +700,13 @@
             </div>
         </div>
         <div>
-            <div class="grid  grid-flow-col gap-10">
-                <a><img src="./images/twitter 1.svg" alt=""></a>
-                <a><img src="./images/facebook 1 (1).svg" alt=""></a>
-                <a><img src="./images/Group 49.svg" alt=""></a>
-                <a><img src="./images/linkedin 1 (1).svg" alt=""></a>
-                <a><img src="./images//instagram 1.svg" alt=""></a>
-                <a><img src="./images/apple 1.svg" alt=""></a>
+            <div class="flex gap-3 lg:gap-10">
+                <img src="./images/twitter 1.svg" alt="">
+                <img src="./images/facebook 1 (1).svg" alt="">
+                <img src="./images/Group 49.svg" alt="">
+                <img src="./images/linkedin 1 (1).svg" alt="">
+                <img src="./images//instagram 1.svg" alt="">
+                <img src="./images/apple 1.svg" alt="">
             </div>
         </div>
     </footer>
